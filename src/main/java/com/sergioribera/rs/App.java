@@ -6,6 +6,6 @@ public class App {
     public static void main( String[] args ) {
         PProvider propertiesProvider = new PProvider();
 
-        get("/entornos", (req, res) -> "En el ambiente " + propertiesProvider.get("ENVIROMENT"));
+        get("/entornos", (req, res) -> "En el ambiente " + propertiesProvider.get("ENVIROMENT", "prod"));
     }
 }
