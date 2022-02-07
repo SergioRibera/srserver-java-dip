@@ -20,7 +20,7 @@ git clone https://github.com/SergioRibera/srserver-java-dip.git
 ```
 Now you need enter on this folder, so do this with the command:
 ```sh
-cd srserver-java-dip.git
+cd srserver-java-dip
 ```
 
 You need kknow this before to continue
@@ -31,8 +31,6 @@ You need kknow this before to continue
 | prod | Production mode |
 
 
-## Steps to run without Docker
-To run without docker I asuming you have installed all prerequisites
 ### Create basic proyect
 you can run this on folder will you want to be create, example if you execute this on `~/Projects/Java` it's will create a `~/Projects/Java/your_project_here`
 

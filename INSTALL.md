@@ -1,9 +1,3 @@
-[Spanish](https://github.com/SergioRibera/srserver-java-dip/blob/main/README.md) - [English](https://github.com/SergioRibera/srserver-java-dip/blob/main/README-EN.md)
-## Un servidor muy muy sencillo
- 
-Este proyecto está hecho para un módulo de automatización final, así que si no eres profesor, ignora este repositorio por favor o mira pero no toques o puedes ver mis otros repositorios y te agradeceré si dejas una estrella :)
-
-de todos modos, si quieres ejecutar esto, sigue leyendo
 ## Prerrequisitos
 #### si quieres ejecutar esto con docker
 - docker (obviamente)
