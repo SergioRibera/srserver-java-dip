@@ -31,10 +31,26 @@
         </dependency>
     </dependencies>
 
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <enviroment>dev</enviroment>
+            </properties>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <properties>
+                <enviroment>prod</enviroment>
+            </properties>
+        </profile>
+    </profiles>
+
     <build>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
+                <filtering>true</filtering>
             </resource>
         </resources>
         <pluginManagement>
